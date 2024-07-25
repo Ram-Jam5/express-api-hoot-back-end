@@ -41,3 +41,13 @@ router.post('/signin', async (req, res) => {
 });
 
 module.exports = router;
+
+// this is our test user:test pass: test
+// {
+//     "user": {
+//         "username": "test",
+//         "_id": "66a25ab9978be1fede342e71",
+//         "__v": 0
+//     },
+//     "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QiLCJfaWQiOiI2NmEyNWFiOTk3OGJlMWZlZGUzNDJlNzEiLCJpYXQiOjE3MjE5MTYwOTB9.V5YmHVqftvz1nJsYml5oKQXe5wGt3gcZHDsHLCqYHOI"
+// }
